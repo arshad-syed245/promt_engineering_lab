@@ -1,0 +1,22 @@
+[project]
+name = "promt-engineering-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "arshad-syed245", email = "hamimarshad26@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "google-generativeai>=0.8.6",
+    "pandas>=3.0.6",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+promt-engineering-lab = "promt_engineering_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
